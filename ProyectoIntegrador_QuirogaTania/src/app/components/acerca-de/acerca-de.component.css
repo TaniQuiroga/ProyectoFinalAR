@@ -1,0 +1,39 @@
+.row{
+    padding: 50px;
+}
+
+div{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+p, h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    text-align: left;
+}
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+#profesion{
+    text-align: center;
+    font-style: oblique;    
+}
+
+/*estilo de la foto de perfik*/
+@media (min-width: 576px){
+#fotoperfil{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px royalblue;
+    
+}
+}
